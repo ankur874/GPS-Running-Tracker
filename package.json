@@ -10,8 +10,25 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.24.0",
+    "@react-native-firebase/app": "^21.7.1",
+    "@react-native-firebase/auth": "^21.7.1",
+    "@react-native-firebase/firestore": "^21.7.1",
+    "@react-navigation/bottom-tabs": "^7.2.0",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/stack": "^7.1.1",
+    "@reduxjs/toolkit": "^2.5.0",
     "react": "18.2.0",
-    "react-native": "0.74.6"
+    "react-native": "0.74.6",
+    "react-native-gesture-handler": "^2.22.1",
+    "react-native-reanimated": "^3.9.0",
+    "react-native-safe-area-context": "^5.1.0",
+    "react-native-screens": "^4.5.0",
+    "react-native-svg": "^15.11.1",
+    "react-native-vector-icons": "^10.2.0",
+    "react-redux": "^9.2.0",
+    "redux": "^5.0.1",
+    "uuid": "^11.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -22,6 +39,7 @@
     "@react-native/metro-config": "0.74.88",
     "@react-native/typescript-config": "0.74.88",
     "@types/react": "^18.2.6",
+    "@types/react-native-vector-icons": "^6.4.18",
     "@types/react-test-renderer": "^18.0.0",
     "babel-jest": "^29.6.3",
     "eslint": "^8.19.0",

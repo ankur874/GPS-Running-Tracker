@@ -5,7 +5,7 @@ GEM
       base64
       nkf
       rexml
-    activesupport (7.0.8.7)
+    activesupport (7.0.8)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -93,11 +93,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesupport (>= 6.1.7.5, < 7.1.0)
   cocoapods (>= 1.13, < 1.15)
 
 RUBY VERSION
    ruby 3.4.1p0
 
 BUNDLED WITH
-   2.6.2
+   2.6.3
