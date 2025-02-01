@@ -9,6 +9,7 @@ export interface ActivityProps {
   buttonText?: string;
   activity?: Activity;
   didTapButton?: (event: 'view' | 'begin' | 'past') => void;
+  event?: 'start' | '';
 }
 
 export const LiveActivity = (props?: ActivityProps) => {
@@ -97,7 +98,7 @@ export const LiveActivity = (props?: ActivityProps) => {
             </Text>
           </View>
         ) : (
-          <Pressable>
+          <Pressable onPress={() => {}}>
             <Text
               style={{
                 fontSize: 38,
